@@ -1,5 +1,5 @@
 package fix_go_modules
 
-func FixGoModules() string {
-	return "fix cuk"
+func FixGoModules(name string) string {
+	return "fix cuk" + name
 }
